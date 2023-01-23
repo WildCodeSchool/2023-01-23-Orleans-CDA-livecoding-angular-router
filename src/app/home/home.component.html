@@ -1,0 +1,6 @@
+<div>
+  <form #searchForm="ngForm" (ngSubmit)="onSubmit($event)">
+    <input type="text" name="search" id="search" [(ngModel)]="search" />
+    <button type="submit">Envoyer</button>
+  </form>
+</div>
